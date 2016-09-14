@@ -49,7 +49,7 @@ Then let's add the controls to upload a file to our `index` view:
 
 Finally, let's get into our controller and handle this file upload.
 
-To do that, we first need to examine the file. Check out `db/customers.csv`. The first row defines the fields, and isn't part of the dataset, so that's called a `header`. 
+To do that, we first need to examine the file. Check out `db/customers.csv`. The first row defines the fields, and isn't part of the dataset, so that's called a `header`.
 
 Each row is ordinal, like an array, so position 0 is email, position 1 is first name, and position 2 is last name.
 
@@ -96,3 +96,5 @@ But at least you have time for that coffee now.
 ![that's good coffee](http://i.giphy.com/dGhlifOCTtSdW.gif)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-long-running-tasks-readme'>Long Running Tasks in Rails</a> on Learn.co and start learning to code for free.</p>
+
+#
