@@ -3,7 +3,7 @@
 # Objectives
 
 1. Create a long-running task and observe its impact on the user
-   experience.
+   experience
 
 # Lesson
 
