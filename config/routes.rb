@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
   resources :customers, only: [:index]
-end
+  post 'customers/upload', to: 'customers#upload'
