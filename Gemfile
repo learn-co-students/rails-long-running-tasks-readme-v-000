@@ -45,3 +45,6 @@ group :development do
   gem 'spring'
 end
 
+
+# Added at 2018-06-10 11:18:07 +0100 by roberthughes:
+gem "csv", "~> 3.0"
