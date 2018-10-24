@@ -1,4 +1,17 @@
 <h1>Our Customers</h1>
+<%= form_tag customers_upload_path, multipart: true do %>
+ <%= file_field_tag :leads %>
+ <%= submit_tag "Import Leads" %>
+<% end %>
+
+<br>
+
+<%= form_tag("/search", method: "get") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+<% end %>
+
 <ul>
 <% @customers.each do |customer| %>
   <li><%= "#{customer.first_name} #{customer.last_name} - #{customer.email}" %></li>
