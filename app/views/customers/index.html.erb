@@ -4,7 +4,6 @@
   <%= submit_tag "Import Leads" %>
 <% end %>
 <ul>
-<ul>
 <% @customers.each do |customer| %>
   <li><%= "#{customer.first_name} #{customer.last_name} - #{customer.email}" %></li>
 <% end %>
