@@ -1,7 +1,8 @@
 class CustomersController < ApplicationController
   require 'csv'
 
-
+  # test 
+  
   def index
     @customers = Customer.all
   end
